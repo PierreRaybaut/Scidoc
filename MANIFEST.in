@@ -1,0 +1,2 @@
+recursive-include doc *.chm *.pdf
+include MANIFEST.in
