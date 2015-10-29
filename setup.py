@@ -16,8 +16,8 @@ def get_data_files(dirname):
 PROJECT_NAME = 'Scidoc'
 
 setup(name=PROJECT_NAME, version='1.9.2.1',
-      description='%s installs scientific libraries documentation' % PROJECT_NAME,
-      long_description="""%s installs scientific libraries documentation (NumPy, SciPy, Matplotlib and others) in sys.prefix\Doc directory on Windows.
+      description='%s installs scientific Python libraries documentation' % PROJECT_NAME,
+      long_description="""%s installs scientific Python libraries documentation (NumPy, SciPy, Matplotlib and others) in sys.prefix\Doc directory on Windows.
 %s version is indexed to NumPy version.
 
 %s is part of the WinPython distribution project.
@@ -25,5 +25,5 @@ setup(name=PROJECT_NAME, version='1.9.2.1',
       data_files=[(r'Doc', get_data_files('doc'))],
       author = "Pierre Raybaut",
       author_email = 'pierre.raybaut@gmail.com',
-      url = 'http://winpython.sourceforge.net/',
+      url = 'https://github.com/PierreRaybaut/Scidoc',
       classifiers=['Operating System :: Microsoft :: Windows'])
