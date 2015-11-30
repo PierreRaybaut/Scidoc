@@ -15,7 +15,7 @@ def get_data_files(dirname):
 
 PROJECT_NAME = 'Scidoc'
 
-setup(name=PROJECT_NAME, version='1.9.2.1',
+setup(name=PROJECT_NAME, version='1.9.3',
       description='%s installs scientific Python libraries documentation' % PROJECT_NAME,
       long_description="""%s installs scientific Python libraries documentation (NumPy, SciPy, Matplotlib and others) in sys.prefix\Doc directory on Windows.
 %s version is indexed to NumPy version.
