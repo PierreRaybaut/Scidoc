@@ -17,7 +17,7 @@ PROJECT_NAME = 'Scidoc'
 
 setup(name=PROJECT_NAME, version='1.9.3',
       description='%s installs scientific Python libraries documentation' % PROJECT_NAME,
-      long_description="""%s installs scientific Python libraries documentation (NumPy, SciPy, Matplotlib and others) in sys.prefix\Doc directory on Windows.
+      long_description="""%s installs scientific Python libraries documentation (NumPy, SciPy, Matplotlib and others) in ``sys.prefix\Doc`` directory on Windows.
 %s version is indexed to NumPy version.
 
 %s is part of the WinPython distribution project.
